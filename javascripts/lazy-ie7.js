@@ -7,7 +7,8 @@
  */
 document.querySelectorAll||(document.querySelectorAll=function(a){var b=document,c=b.documentElement.firstChild,d=b.createElement("STYLE");return c.appendChild(d),b.__qsaels=[],d.styleSheet.cssText=a+"{x:expression(document.__qsaels.push(this))}",window.scrollBy(0,0),b.__qsaels});
 (function(){
-    var lazy = Array.prototype.concat.apply([],document.querySelectorAll('*[data-lazy-src]'));
+    var lazy = Array.prototype.concat.apply([],document.querySelectorAll('*[data-lazy-src]')),
+        height = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
     window.onscroll = function(e){
        loadImage();
     }
@@ -16,7 +17,7 @@ document.querySelectorAll||(document.querySelectorAll=function(a){var b=document
           var image = lazy[i],
           scrollTop = window.pageXOffset || document.body.scrollTop || document.documentElement.scrollTop,
           imageTop=image.getBoundingClientRect()['top'];
-           if(imageTop < scrollTop){
+           if(imageTop-height < scrollTop){
              image.src = image.getAttribute('data-lazy-src');
               image.removeAttribute('data-lazy-src');
               delete lazy[i];
