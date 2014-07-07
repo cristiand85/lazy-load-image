@@ -1,3 +1,10 @@
+/* lazy.js (c) Cristian Dolce
+ * semplice e piccolo script per il caricamento asincrono delle immagini
+ * MIT License
+ *
+ * esempio:  
+ * `<img src="1.png" data-lazy-src="image.jpg">`
+ */
 document.querySelectorAll||(document.querySelectorAll=function(a){var b=document,c=b.documentElement.firstChild,d=b.createElement("STYLE");return c.appendChild(d),b.__qsaels=[],d.styleSheet.cssText=a+"{x:expression(document.__qsaels.push(this))}",window.scrollBy(0,0),b.__qsaels});
 (function(){
     var lazy = Array.prototype.concat.apply([],document.querySelectorAll('*[data-lazy-src]'));
@@ -18,3 +25,4 @@ document.querySelectorAll||(document.querySelectorAll=function(a){var b=document
     }
     loadImage();
 })();
+
