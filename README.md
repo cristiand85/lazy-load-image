@@ -18,3 +18,11 @@ l'immagine 1.png è un immagine di un pixel con sfondo trasparente.
 
 Inserire il link dello script in fondo al body 
 ```<script src="lazy.js"></script>```
+
+Author:
+===============
+Cristian Dolce
+
+Licensed:
+===============
+Code and documentation licensed under MIT.
