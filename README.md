@@ -1,4 +1,4 @@
-lazy-load-image
+Lazy Load Image
 ===============
 Semplice script javascript per caricare la immagini in modo asincrono sul proprio sito web.
 
