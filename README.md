@@ -12,7 +12,7 @@ Esempio di utilizzo:
 
 L'utilizzo è molto semplice basta inserire sul tag img l'attributo data-lazy-src="link immagine" 
 esempio: 
-<img src="1.png" data-lazy-src="limone.jpg" alt="Foto limone di sicilia"/> 
+<code><img src="1.png" data-lazy-src="limone.jpg" alt="Foto limone di sicilia"/> </code>
 
 l'immagine 1.png è un immagine di un pixel con sfondo trasparente. 
 
