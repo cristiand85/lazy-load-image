@@ -1,6 +1,6 @@
 Lazy Load Image
 ===============
-Semplice script javascript per caricare la immagini in modo asincrono sul proprio sito web.
+Semplice script javascript per caricare la immagini in modo asincrono sul proprio sito web, questo script non ha nessuna dipendenza è stato scritto in puro javascript.
 
 Sono disponibili due versioni dello script:
 
