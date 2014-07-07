@@ -14,4 +14,4 @@ L'utilizzo è molto semplice basta inserire sul tag img l'attributo data-lazy-sr
 l'immagine 1.png è un immagine di un pixel con sfondo trasparente. 
 
 Inserire il link dello script in fondo al body 
-<script src="lazy.js"></script> 
+```<script src="lazy.js"></script>```
