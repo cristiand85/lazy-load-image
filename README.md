@@ -11,6 +11,9 @@ lazy-ie7.js supportato sui seguenti browser ie7+ firefox chrome opera safari
 Esempio di utilizzo:
 
 L'utilizzo è molto semplice basta inserire sul tag img l'attributo data-lazy-src="link immagine" 
+
+```<img data-lazy-src="limone.jpg" src="1.png" alt="Immagine limone di sicilia"/>```
+
 l'immagine 1.png è un immagine di un pixel con sfondo trasparente. 
 
 Inserire il link dello script in fondo al body 
